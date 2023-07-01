@@ -3,15 +3,17 @@ import logo  from '../assets/logo.png'
 
 export const Home = () => {
   return (
-    <div className=' w-full h-screen flex flex-row justify-between'>
-      <div className='flex flex-col justify-center w-1/2'>
-      <p className='text-[#D7E5EC] text-xl font-medium font-sora'>FRONT WEB DEVELOPER</p>
-      <h1 className='text-6xl font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] font-semibold '>Bouklab Abderaouf</h1>
+    <div className=' w-full h-auto flex  justify-start sm:justify-between flex-col-reverse sm:flex-row sm:mt-10 mt-10'>
+      <div className='flex flex-col justify-center items-center sm:items-start w-full sm:w-1/2 mt-8 sm:mt-0'>
+      <p className='text-[#D7E5EC] sm:text-xl text-l font-medium font-sora'>FRONT WEB DEVELOPER</p>
+      <h1 className='text-2xl sm:text-5xl font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] font-semibold '>Bouklab Abderaouf</h1>
       <p className='text-[#BDEBEA] text-base font-medium	w-full'>Hello, I'm Abderaouf Bouklab, a Front-End Developer and a Master's student at EPITECH Paris, specializing in software architecture and development. I'm currently seeking a one-year internship in the field of computer science.
-</p>
+      </p>
+      <a className='inline-block py-3 px-5 mt-4 text-[#252728] rounded-md bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] ' href='/About'>Contact Me</a>
+
       </div>
-      <div className='flex flex-col justify-center '>
-        <img src={logo} className='w-[400px] h-[300px]' />
+      <div className='flex flex-col justify-center items-end w-full sm:w-1/2 '>
+        <img src={logo} className='w-[300px] h-[200px] sm:w-[400px] sm:h-[300px]' />
       
 
       </div>
