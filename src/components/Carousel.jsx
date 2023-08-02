@@ -86,10 +86,10 @@ export const Carousel = () => {
           </div>
         </div>
         <div>
-          <h3 className="text-center text-xl font-bold">Slide 3</h3>
+          <h3 className="text-2xl sm:text-4xl text-center font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] font-semibold">Coming soon ...</h3>
         </div>
         <div>
-          <h3 className="text-center text-xl font-bold">Slide 4</h3>
+          <h3 className="text-2xl sm:text-4xl text-center font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] font-semibold">Coming soon ...</h3>
         </div>
       </Slider>
     </div>

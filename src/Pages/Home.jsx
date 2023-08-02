@@ -18,6 +18,20 @@ export const Home = () => {
         <img src={logo} alt='logo' className='w-[300px] h-[200px] sm:w-[400px] sm:h-[300px]' />
       </div>
     </div>
+    <div className='mb-5'>
+      <h1 className="text-left text-3xl font-bold text-[#BDEBEA] mt-10 mb-5 ">About Me</h1>
+      <div className='flex flex-col sm:flex-row justify-between items-center'>
+        <div className='flex flex-col justify-center items-center w-full '>
+        <p className='text-[#BDEBEA] text-base font-medium	w-full'>
+          Hello! My name is Abderaouf Bouklab and I am passionate about creating innovative solutions on the web. My journey into web development began during my Master's degree at the University of Badji Mokhtar Annaba, where I specialized in Systems and Decisions. This experience taught me a lot about responsive design, database architecture, and workflow optimization.
+
+          Fast-forward to today, I am currently pursuing my M1 at EPITECH Paris, focusing on software architecture and development. I have had the privilege of working as a full stack bubble.io developer at Netdevices Paris, where I honed my skills in front-end development and gained a comprehensive understanding of full-stack development.
+          I am currently seeking a one-year internship in the field of computer science, where I can leverage my skills and experience to create innovative solutions.
+        </p>
+        </div>
+      </div>
+          
+    </div>
     <div>
       <h1 className="text-left text-3xl font-bold text-[#BDEBEA] mb-10">Projects</h1>
       <Carousel />

@@ -9,7 +9,6 @@ import {
 import { Home } from "./Home"
 import { About } from "./About"
 import { Navbar } from "../components/Navbar"
-import { Footer } from "../components/Footer"
 import { Projects } from './Projects';
 
 function Layout() {
@@ -21,7 +20,7 @@ function Layout() {
   );
 }
 
-export default function() {
+export default function RoutesManager() {
   return (
     <div>
       <Router>
