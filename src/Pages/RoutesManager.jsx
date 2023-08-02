@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { createContext, useRef } from "react";
+
+
 import {
   Route,
   Routes,
@@ -11,12 +13,22 @@ import { About } from "./About"
 import { Navbar } from "../components/Navbar"
 import { Projects } from './Projects';
 
+export const RefContext = createContext();
+
 function Layout() {
+  const myRef1 = useRef(null);
+  const myRef2 = useRef(null);
+  const myRef3 = useRef(null);
+
+  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+
   return (
-    <div className={`w-full font-Montserrat`}>
-      <Navbar />
-      <Outlet />
-    </div>
+    <RefContext.Provider value={{ myRef1, myRef2, myRef3 }}>
+      <div className={`w-full font-Montserrat`}>
+        <Navbar scrollToRef={scrollToRef} />
+        <Outlet />
+      </div>
+    </RefContext.Provider>
   );
 }
 
