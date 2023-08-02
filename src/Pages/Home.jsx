@@ -22,7 +22,7 @@ export const Home = () => {
         <img src={logo} alt='logo' className='w-[300px] h-[200px] sm:w-[400px] sm:h-[300px]' />
       </div>
     </div>
-    <div className='mb-5'>
+    <div ref={myRef3} className='mb-5'>
       <h1 className="text-left text-3xl font-bold text-[#BDEBEA] mt-10 mb-5 ">About Me</h1>
       <div className='flex flex-col sm:flex-row justify-between items-center'>
         <div className='flex flex-col justify-center items-center w-full '>
