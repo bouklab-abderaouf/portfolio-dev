@@ -3,7 +3,7 @@ import { RefContext } from "./RoutesManager";
 import logo  from '../assets/logo.png'
 import Carousel from '../components/Carousel'
 import Skills from '../components/Skills'
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 export const Home = () => {
   const { myRef1, myRef2, myRef3 } = useContext(RefContext);
