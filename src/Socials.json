@@ -1,16 +1,19 @@
 [
   {
       "name": "linkedin",
+      "alt":"Linkedin",
       "imgSrc": "/assets/LinkdIn.png",
       "Link": "https://www.linkedin.com/in/abderaouf-bouklab/"
   },
   {
       "name": "Github",
+      "alt":"Github",
       "imgSrc": "/assets/Github.png",
       "Link": "https://github.com/bouklab-abderaouf"
   },
   {
       "name": "Gmail",
+      "alt":"Gmail",
       "imgSrc": "/assets/Gmail.png",
       "Link": "https://github.com/bouklab-abderaouf"
   }
