@@ -1,7 +1,5 @@
 import React from 'react';
 import Slider from 'react-slick';
-import Home from '../assets/Home.jpg';
-import crypto from '../assets/crypto.png';
 import carouselData from '../Projects.json'
 
 export const Carousel = () => {

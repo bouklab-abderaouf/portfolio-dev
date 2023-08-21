@@ -12,6 +12,7 @@ import { Home } from "./Home"
 import { About } from "./About"
 import { Navbar } from "../components/Navbar"
 import { Projects } from './Projects';
+import {Footer } from "../components/Footer";
 
 export const RefContext = createContext();
 
@@ -27,6 +28,7 @@ function Layout() {
       <div className={`w-full font-Montserrat`}>
         <Navbar scrollToRef={scrollToRef} />
         <Outlet />
+        <Footer scrollToRef={scrollToRef}/>
       </div>
     </RefContext.Provider>
   );
