@@ -47,7 +47,7 @@ export const Home = () => {
         <h1 className="text-left text-3xl font-bold text-[#BDEBEA] my-10 ">Skills</h1>
         <Skills />
       </div>
-      <div ref={myRef2}>
+      <div ref={myRef2} className='sm:p-10'>
       <h1 className="text-left text-3xl font-bold text-[#BDEBEA] mb-10">Projects</h1>
       <Carousel />
       </div>

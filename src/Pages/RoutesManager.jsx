@@ -28,7 +28,7 @@ function Layout() {
       <div className={`w-full font-Montserrat`}>
         <Navbar scrollToRef={scrollToRef} />
         <Outlet />
-        <Footer scrollToRef={scrollToRef}/>
+        {/* <Footer scrollToRef={scrollToRef}/> */}
       </div>
     </RefContext.Provider>
   );

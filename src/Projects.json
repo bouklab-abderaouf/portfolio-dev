@@ -1,7 +1,31 @@
 {
   "slides": [
     {
-      "image": "Home.jpg",
+      "image": "cryptovid.mp4",
+      "alt": "project1",
+      "title": "Cryptocurrency visualizer",
+      "tags": [
+        "REACT",
+        "TAILWIND",
+        "API",
+        "EXPRESS",
+        "FIGMA"
+      ],
+      "description": "In this project, I was tasked with developing a complete web platform centered around cryptocurrencies. The platform was designed to manage display settings, articles, and user connections, providing a comprehensive solution for cryptocurrency enthusiasts. my primary responsibility was to develop the news API. This involved fetching data from an external API and implementing a feature that allowed users to receive news based on specific keywords. In addition to this, I contributed to the design process by assisting with the creation of the Figma design and took part in the front-end development of the project. The project also involved the creation of schemas and routes, and the management of cryptocurrency data. This project allowed me to gain hands-on experience with DevOps practices, including image storage and function-app development. Overall, this project was a significant step in my journey as a full-stack developer, providing me with the opportunity to work on a wide range of tasks and deepen my understanding of web platform development."
+    },
+    {
+      "image": "SDXL.mp4",
+      "alt": "A PROJECT ABOUT JEWLERIES",
+      "title": "Jewelry generation tool",
+      "tags": [
+        "Bubble",
+        "API",
+        "IA"
+      ],
+      "description": "In this project, i had to make a jewlery generation tool. The tool was designed to help users create custom jewelry designs by selecting various parameters such as material, color, and style. I was responsible for everything in this project, from problem solving and design to development and deployment. I used Bubble to create the platform, which allowed me to develop the tool without writing any code. I also integrated Stability IA API to use their SDXL image generation model that generats jewelry designs based on user preferences. This project was a great opportunity for me to explore the capabilities of no-code development platforms and gain experience in creating AI-powered tools and prompt engineering. It also allowed me to enhance my problem-solving skills and develop a deeper understanding of the jewelry industry."
+    },
+    {
+      "image": "Projet-voyage.png",
       "alt": "home",
       "title": "Trip Planner Web app",
       "tags": [
@@ -11,19 +35,6 @@
         "FIGMA"
       ],
       "description": "In this project, I took on the role of a front-end developer, where I was responsible for several key aspects. My tasks began with creating the project's design on Figma, which laid the foundation for the visual aspects of the project. I then utilized Tailwind CSS and React JS to bring this design to life, creating a responsive user interface that ensured a seamless user experience across various devices. One of my significant responsibilities was to bridge the gap between the front-end and back-end systems. This involved implementing authentication protocols and handling various HTTP methods, which was crucial for the smooth functioning of the project. This project served as an excellent platform for me to deepen my skills in React and Tailwind CSS. More importantly, it provided me with a comprehensive understanding of full-stack development, as I was actively involved in both front-end and back-end integrations. The experience I gained from this project has been invaluable, and it has significantly enhanced my capabilities as a full-stack developer."
-    },
-    {
-      "image": "crypto.png",
-      "alt": "project1",
-      "title": "Time Manager Web app",
-      "tags": [
-        "REACT",
-        "TAILWIND",
-        "API",
-        "EXPRESS",
-        "FIGMA"
-      ],
-      "description": "In this project, I was tasked with developing a complete web platform centered around cryptocurrencies. The platform was designed to manage display settings, articles, and user connections, providing a comprehensive solution for cryptocurrency enthusiasts. my primary responsibility was to develop the news API. This involved fetching data from an external API and implementing a feature that allowed users to receive news based on specific keywords. In addition to this, I contributed to the design process by assisting with the creation of the Figma design and took part in the front-end development of the project. The project also involved the creation of schemas and routes, and the management of cryptocurrency data. This project allowed me to gain hands-on experience with DevOps practices, including image storage and function-app development. Overall, this project was a significant step in my journey as a full-stack developer, providing me with the opportunity to work on a wide range of tasks and deepen my understanding of web platform development, particularly in the realm of cryptocurrencies."
     },
     {
       "title": "Coming soon ..."

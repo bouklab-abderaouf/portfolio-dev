@@ -14,10 +14,10 @@ export const Footer = ({ scrollToRef }) => {
     <Socials />
     
     </div>
-    <div className=' flex-row justify-between '>
+    {/* <div className=' flex-row justify-between '>
     <NavLink  onClick={() => scrollToRef(myRef2)} className='text-left text-3xl font-bold text-[#BDEBEA] mt-10 mb-5 '>Projects</NavLink>
     <NavLink  onClick={() => scrollToRef(myRef2)} className='text-left text-3xl font-bold text-[#BDEBEA] mt-10 mb-5'>Projects</NavLink>
-    </div>
+    </div> */}
     </div>
   )
 }
