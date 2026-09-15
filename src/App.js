@@ -3,6 +3,7 @@ import { projects, profile, experiments, experience } from "./data/portfolio";
 import jewelryVideo from "./assets/SDXL.mp4";
 import cryptoVideo from "./assets/cryptovid.mp4";
 import "./App.css";
+import ContactForm from "./components/ContactForm";
 
 function Arrow({ direction = "up", ...props }) {
   return (
@@ -322,7 +323,7 @@ export default function App() {
           <a href="#about">About</a>
           <a href="#workbench">Workbench</a>
         </nav>
-        <a href={profile.email} className="header-contact">
+        <a href="#contact-form" className="header-contact">
           Let’s talk <Arrow />
         </a>
       </header>
@@ -655,21 +656,25 @@ export default function App() {
               <span>THE NEXT GOOD THING STARTS WITH A CONVERSATION.</span>
               <span>PARIS ↗ ANYWHERE</span>
             </div>
-            <a href={profile.email} className="contact-big">
+            <h2 className="contact-big">
               Let’s build
               <br />
               <em>something useful.</em>
               <Arrow />
-            </a>
-            <div className="contact-bottom">
-              <p>
-                Open to conversations about full-stack
-                <br />
-                and applied AI engineering opportunities.
-              </p>
-              <a href={profile.email} className="email-link">
-                bouklab.abdelraouf@gmail.com <Arrow />
-              </a>
+            </h2>
+            <div className="contact-compose">
+              <div className="contact-intro">
+                <h3>
+                  A project. A role.
+                  <br />A good conversation.
+                </h3>
+                <p>
+                  Open to conversations about full-stack and applied AI
+                  engineering opportunities. Leave a message here and I’ll get
+                  back to you by email.
+                </p>
+              </div>
+              <ContactForm />
             </div>
           </div>
         </section>
