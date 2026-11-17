@@ -556,24 +556,52 @@ export default function App() {
             <span className="hand-note">Curiosity doesn’t clock out. ↘</span>
           </div>
           <div className="bench-grid">
-            {experiments.map((exp) => (
-              <article className="notebook" key={exp.id}>
-                <div className="notebook-top">
-                  <span className="mono">EXPERIMENT / 001</span>
-                  <span className="work-status">
-                    <span className="live-dot" />
-                    {exp.status}
-                  </span>
-                </div>
-                <div className="notebook-title">
-                  <h3>{exp.name}</h3>
-                  <img src="/assets/gemini.png" alt="Gemini" loading="lazy" />
-                </div>
-                <p>{exp.description}</p>
-                <Tags items={exp.stack} />
-                <div className="notebook-note">
-                  <span className="mono">CURRENT NOTE</span>
-                  <p>{exp.note}</p>
+            {experiments.map((exp, index) => (
+              <article
+                className={`notebook${exp.image ? " notebook-featured" : ""}`}
+                key={exp.id}
+              >
+                {exp.image && (
+                  <div className="notebook-preview">
+                    <img
+                      src={exp.image}
+                      alt={exp.imageAlt}
+                      width="2940"
+                      height="1388"
+                      loading="lazy"
+                    />
+                  </div>
+                )}
+                <div className="notebook-content">
+                  <div className="notebook-top">
+                    <span className="mono">
+                      EXPERIMENT / {String(index + 1).padStart(3, "0")}
+                    </span>
+                    <span className="work-status">
+                      <span className="live-dot" />
+                      {exp.status}
+                    </span>
+                  </div>
+                  <div className="notebook-title">
+                    <h3>{exp.name}</h3>
+                    <img src="/assets/gemini.png" alt="Gemini" loading="lazy" />
+                  </div>
+                  <p>{exp.description}</p>
+                  <Tags items={exp.stack} />
+                  <div className="notebook-note">
+                    <span className="mono">CURRENT NOTE</span>
+                    <p>{exp.note}</p>
+                  </div>
+                  {exp.url && (
+                    <a
+                      className="line-link notebook-live-link"
+                      href={exp.url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Open live app <Arrow />
+                    </a>
+                  )}
                 </div>
               </article>
             ))}

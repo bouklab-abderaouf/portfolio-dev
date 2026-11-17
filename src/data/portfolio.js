@@ -143,6 +143,19 @@ export const projects = {
 
 export const experiments = [
   {
+    id: "interview-prep",
+    name: "Interview Prep",
+    status: "Deployed",
+    description:
+      "Practice interviews out loud with an AI interviewer, tailored to your CV and target role. Build a preparation roadmap, rehearse through live voice conversations, and review a scorecard grounded in your transcript.",
+    stack: ["Next.js", "Gemini Live API", "PostgreSQL", "Zod"],
+    image: "/assets/interview-prep.png",
+    imageAlt:
+      "Interview Prep landing page showing its voice interview preview and generated scorecard tab",
+    url: "https://interview-prep-alpha-dun.vercel.app/",
+    note: "Browser-to-Gemini audio uses short-lived tokens. Transcripts are saved before scoring, so feedback can be retried without losing the interview.",
+  },
+  {
     id: "workout",
     name: "AI Workout App",
     status: "In development",
